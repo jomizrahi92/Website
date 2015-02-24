@@ -286,7 +286,7 @@ a.hire-btn:hover{
 .social li a.lastfm:before { content: '\e80a'; }
 .social li a.linkedin:before { content: '\e802'; }
 .social li a.vimeo:before { content: '\e80c'; }
-.social li a.google:before { content: '\e84d'; }
+.social li a.google:before { content: '\e803'; }/*'\e84d'; }*/
 .social li a.forrst:before { content: '\e80d'; }
 .social li a.skype:before { content: '\e812'; }
 .social li a.picassa:before { content: '\e8e0'; }
@@ -300,7 +300,7 @@ a.hire-btn:hover{
 .social li a.github:before { content: '\e805'; }
 .social li a.wordpress:before { content: '\e816'; }
 .social li a.pinterest:before { content: '\e804'; } 
-.social li a.instagram:before { content: '\e80e'; }
+.social li a.instagram:before { content: '\e808'; }
 
 /* social icon hovers */
 .social li a.facebook:hover { 
@@ -2091,7 +2091,7 @@ a.hire-btn:hover{
 .footer-bottom .social li a.lastfm:before { content: '\e80a'; }
 .footer-bottom .social li a.linkedin:before { content: '\e802'; }
 .footer-bottom .social li a.vimeo:before { content: '\e80c'; }
-.footer-bottom .social li a.google:before { content: '\e84d'; }
+.footer-bottom .social li a.google:before { content: '\e803'; }
 .footer-bottom .social li a.forrst:before { content: '\e80d'; }
 .footer-bottom .social li a.skype:before { content: '\e812'; }
 .footer-bottom .social li a.picassa:before { content: '\e8e0'; }
@@ -2105,7 +2105,7 @@ a.hire-btn:hover{
 .footer-bottom .social li a.github:before { content: '\e805'; }
 .footer-bottom .social li a.wordpress:before { content: '\e816'; }
 .footer-bottom .social li a.pinterest:before { content: '\e804'; } 
-.footer-bottom .social li a.instagram:before { content: '\e80e'; }
+.footer-bottom .social li a.instagram:before { content: '\e808'; }
 
 .footer-bottom .social li a:hover { color:#fff !important; background-color:#000; border-color: #fff; }
 .footer-bottom .social li a.facebook { background-color:#3c5fac; }
