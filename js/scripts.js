@@ -73,7 +73,7 @@
             });
 
 /*----------------------------- Tweetscroll--------------------------*/
-  $('.tweets-list-container').tweetscroll({ 
+  /*$('.tweets-list-container').tweetscroll({ 
     username: 'josephmizrahi',
     speed : 500,
     delay: 5000,
@@ -85,7 +85,7 @@
     animation: 'slide_up', 
     request_url: 'js/tweetscroll/twitter/tweets.php',
     visible_tweets: 1
-  });
+  });*/
 
 /*----------------------------- Tooltip--------------------------*/
   $( 'body' ).tooltip({
