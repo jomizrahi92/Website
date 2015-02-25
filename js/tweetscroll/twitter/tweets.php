@@ -4,7 +4,6 @@ session_start();
 require_once("twitteroauth.php"); //Path to twitteroauth library
 
 $twitteruser = $_GET['username'];
-    echo ($twitteruser);
 $notweets = $_GET['limit'];
 $consumerkey = "qu2I2VHCZjhB4wAzZ8XQZEG24";
 $consumersecret = "Rk2DZKXR0i0MBC3z1VpMuLvDXgbxaLfHitsuRNedDEXt0mOAqV";
@@ -52,5 +51,7 @@ if (count($twitteruser) > 1) {
 
 header('content-type: application/json');
 echo json_encode($all_tweets);
+echo json_encode($twitteruser);
+
 exit();
 ?>
