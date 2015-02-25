@@ -192,7 +192,7 @@
 //Page Preloader  
       $(".loader-item").delay(700).fadeOut();
       $(".mask").delay(800).fadeOut("slow");
-                   console.log("running");
+                   //console.log("running");
         parallaxInit(); 
 
 /*----------------------------- Isotop Portfolio --------------------------*/
