@@ -13,11 +13,11 @@
     $.fn.tweetscroll = function(options) {
         //specify the plugins defauls
         var defaults = {
-            limit: 10, //number of tweets to fetch
-            visible_tweets: 5, //number of tweets to be visible
+            limit: 5, //number of tweets to fetch
+            visible_tweets: 2, //number of tweets to be visible
             speed: 600, // scroll animation speed
             delay: 3000, // delay between animations
-            username: 'josephmizrahi', //@username tweets to display. can be multiple usernames e.g. [philipbeel, vmrkela]
+            username: 'JosephMizrahi', //@username tweets to display. can be multiple usernames e.g. [philipbeel, vmrkela]
             time: false, //display date
             replies: false, //filter out @replys
             date_format: 'style1',
