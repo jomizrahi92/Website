@@ -74,12 +74,12 @@
 
 /*----------------------------- Tweetscroll--------------------------*/
   $('.tweets-list-container').tweetscroll({ 
-    username: 'envatowebdesign', 
-    speed : 100,
+    username: 'josephmizrahi',
+    speed : 500,
     delay: 5000,    
     time: false,
     replies: false,
-    limit: 5,
+    limit: 7,
     position: 'append', 
     date_format: 'style2', 
     animation: 'slide_up', 
@@ -135,7 +135,7 @@
   });
 
 /*----------------------------- Google Map --------------------------*/
-  $('#gmap').gmap3({
+  /*$('#gmap').gmap3({
     marker:{address:"Haltern am See, Weseler Str. 151", options:{icon: "img/location1.png"}},
     map:{
         options:{
@@ -143,7 +143,7 @@
         scrollwheel: false
                 }
         }
-  });
+  });*/
 
 /*----------------------------- Contact Form --------------------------*/
      $('#submit').formValidator({
