@@ -4,7 +4,7 @@ session_start();
 require_once("twitteroauth.php"); //Path to twitteroauth library
 
 $twitteruser = "JosephMizrahi";
-$notweets = "5"
+$notweets = $_GET['limit'];
 $consumerkey = "qu2I2VHCZjhB4wAzZ8XQZEG24";
 $consumersecret = "Rk2DZKXR0i0MBC3z1VpMuLvDXgbxaLfHitsuRNedDEXt0mOAqV";
 $accesstoken = "201535195-mczHTEiKH2QNKJgH1tC3A9SocipCej89Flw94OtE";
