@@ -76,15 +76,15 @@
   $('.tweets-list-container').tweetscroll({ 
     username: 'josephmizrahi',
     speed : 500,
-    delay: 5000,    
+    delay: 5000,
     time: false,
     replies: false,
-    limit: 7,
+    limit: 5,
     position: 'append', 
     date_format: 'style2', 
     animation: 'slide_up', 
     request_url: 'js/tweetscroll/twitter/tweets.php',
-    visible_tweets: 1 
+    visible_tweets: 2
   });
 
 /*----------------------------- Tooltip--------------------------*/
