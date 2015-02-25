@@ -84,7 +84,7 @@
     date_format: 'style2', 
     animation: 'slide_up', 
     request_url: 'js/tweetscroll/twitter/tweets.php',
-    visible_tweets: 2
+    visible_tweets: 1
   });
 
 /*----------------------------- Tooltip--------------------------*/
