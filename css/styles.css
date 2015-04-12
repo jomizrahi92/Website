@@ -1435,7 +1435,7 @@ a.hire-btn:hover{
     font-size: 12px;
     font-weight: 400;
     padding-top: 10px;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
 }
 .project-item .details p span {
     font-style: normal;
