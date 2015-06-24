@@ -1049,7 +1049,7 @@ a.hire-btn:hover{
 .timeline-post{
     padding: 10px;
 }
-.timeline-post-left .timeline-post:first-child{
+.timeline-post-right .timeline-post:first-child{
     margin-top: 65px;
 }
 .timeline-post-content-holder{
