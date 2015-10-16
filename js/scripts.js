@@ -190,8 +190,8 @@
     $(window).load(function(){
 /*----------------------------- Loader & Parallax --------------------------*/    
 //Page Preloader  
-      $(".loader-item").delay(700).fadeOut();
-      $(".mask").delay(800).fadeOut("slow");
+      $(".loader-item").delay(350).fadeOut();
+      $(".mask").delay(400).fadeOut("slow");
                    //console.log("running");
         parallaxInit(); 
 
