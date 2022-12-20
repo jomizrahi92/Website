@@ -1,0 +1,29 @@
+{
+  "name": "base-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~4.1.0",
+    "express": "~5.0.0-alpha.7",
+    "express-handlebars": "^3.0.0",
+    "handlebars-helper-equal": "^1.0.0",
+    "morgan": "~1.9.1",
+    "serve-favicon": "~2.5.0",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}

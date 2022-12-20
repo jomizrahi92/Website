@@ -1,0 +1,24 @@
+{
+  "name": "base-site",
+  "description": "",
+  "main": "",
+  "authors": [
+    "JEMA Web Solutions"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "requirejs": "~2.1.22"
+  },
+  "devDependencies": {}
+}
